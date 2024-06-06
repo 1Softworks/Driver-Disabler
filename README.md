@@ -10,11 +10,6 @@ Anti-cheat programs often load their drivers directly from within the game. By i
 
 This tool can be modified to target and disable various anti-cheat services that use different methods for initialization.
 
-## Setup
-
-Setting up DriverDisabler is simple. Compile the tool for the appropriate architecture (x86 or x64) and inject it into the target process.
-
-The target process should be specified in the `config.ini` file under the `targetProc` parameter.
 
 ## Integration with Other Methods
 
